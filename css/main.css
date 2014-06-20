@@ -3,8 +3,6 @@
    font-family:sans-serif;
    background-color: #bbb;
    height: 100%;
-     transition:all 1s;
-
  }
  body
 {
@@ -131,6 +129,7 @@
 
  #access ul li:hover > ul {
  display:block;
+   transition:all 1s;
  }
 
  #access ul ul:before {
