@@ -83,7 +83,9 @@
  #access ul ul ul {
  left:100%;
  top:0;
+ transition:all .7s;
  }
+ 
 
  #access ul ul li a {
  color:#fff;
