@@ -2,12 +2,13 @@
    font-size: 62.5%;
    font-family:sans-serif;
    background-color: #bbb;
+   height: 100%;
  }
  body
 {
     color: #555;
     font-size: 1.7rem;
-    margin: 0px auto;
+    height: 100%;
  }
  
  #branding {
@@ -17,6 +18,7 @@
     padding: 40px 30px 0px;
 }
 #page {
+    background-color: #ccc;
     display: block;
     margin: 0px auto;
     position: relative;
