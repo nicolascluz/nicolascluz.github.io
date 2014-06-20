@@ -34,17 +34,13 @@
 /*	Header
 /*-----------------------------------------------------------------------------------*/
 #branding {
-	padding:20px 0 0;
+	padding: 20px 30px 0px;
 	display:block;
 }
 #site-title,#site-description {
 	padding:0 0 20px;
-}
-#site-title h1 {
 	margin:0;
 	padding:0;
-	line-height:1.2;
-	word-wrap: break-word;
 	letter-spacing:0.1em;
 }
 
