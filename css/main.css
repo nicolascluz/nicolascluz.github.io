@@ -36,22 +36,16 @@
 #branding {
 	padding:20px 0 0;
 	display:block;
-	overflow:hidden;
 }
 #site-title {
 	padding:0 0 20px;
-	text-align:center;
 }
 #site-title h1 {
 	margin:0;
 	padding:0;
 	line-height:1.2;
-	font-weight:600;
 	word-wrap: break-word;
 	letter-spacing:0.1em;
-}
-#site-title h1 a {
-	color:#000;
 }
 
 #page {
