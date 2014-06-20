@@ -83,7 +83,6 @@
  #access ul ul ul {
  left:100%;
  top:0;
- transition:all .7s;
  }
  
 
@@ -93,6 +92,7 @@
  height:auto;
  width:150px;
  padding:.4em .4em .4em 1em;
+  transition:all 1s;
  }
 
  #access ul ul li:first-child a {
