@@ -30,12 +30,30 @@
     font-size: 1.2rem;
  }
  
- #branding {
-    display: block;
-    clear: both;
-    padding-top: 40px;
-    margin: 0px 30px 0px 30px;
+ /*-----------------------------------------------------------------------------------*/
+/*	Header
+/*-----------------------------------------------------------------------------------*/
+#branding {
+	padding:20px 0 0;
+	display:block;
+	overflow:hidden;
 }
+#site-title {
+	padding:0 0 20px;
+	text-align:center;
+}
+#site-title h1 {
+	margin:0;
+	padding:0;
+	line-height:1.2;
+	font-weight:600;
+	word-wrap: break-word;
+	letter-spacing:0.1em;
+}
+#site-title h1 a {
+	color:#000;
+}
+
 #page {
     background-color: #fff;
     display: block;
@@ -44,16 +62,6 @@
     width: 66%;
 }
 
- #site-title {
-     font-size: 3em;
-     letter-spacing: -2px;
-     font-weight: 200;
- }
- #site-description {
-     font-size: 2em;
-     color:#1FA67A;
-     font-weight: 300;
-}
 
  #main {
      clear: both;
