@@ -3,10 +3,6 @@
    font-family:sans-serif;
    background-color: #bbb;
  }
-body #page {
-    width: 670px;
-    margin: 0px auto;
-}
  body
 {
      color: #555;
@@ -19,7 +15,12 @@ body #page {
     margin: 0;
     padding: 40px 30px 0px;
 }
-
+#page {
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    width: 950px;
+}
  #site-title {
      font-size: 3em;
      letter-spacing: -2px;
@@ -31,13 +32,7 @@ body #page {
      color:#1FA67A;
      font-weight: 300;
      margin-left: 30px; }
-  #page {
-     display: block;
-     margin: 0 auto;
-     position: relative;
-	  width:80%;
-    background-color: #ccc;
- }
+
  #main {
      clear: both;
  }
