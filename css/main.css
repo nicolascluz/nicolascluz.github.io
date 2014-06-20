@@ -24,14 +24,13 @@
  #site-title {
      font-size: 3em;
      letter-spacing: -2px;
-     margin-left: 30px;
      font-weight: 200;
  }
  #site-description {
      font-size: 2em;
      color:#1FA67A;
      font-weight: 300;
-     margin-left: 30px; }
+}
 
  #main {
      clear: both;
@@ -63,7 +62,6 @@
  #access ul {
  list-style:none outside none;
  z-index:4;
- margin:0px 30px;
  padding:2px;
  }
 
