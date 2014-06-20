@@ -1,70 +1,224 @@
 <!DOCTYPE html>
-<html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="fr-FR">
+<html>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width" />
+	<title>Menu test</title>
+ <STYLE TYPE="text/css">
+ /*---------------------------------------------------------------------------------------------*/
+ /*	CSS Reset by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/ v2.0
+ /*---------------------------------------------------------------------------------------------*/
+ html,body,div,span,applet,object,h1,h2,h3,h4,h5,h6,p,blockquote,a,img,strong,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}
+ address{padding:0 0 30px; line-height:1.7;}
+ abbr,acronym{border-bottom:.1em dotted;}
+ ins{background:#ffffcc;text-decoration:none;}
+ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+ ol,ul{list-style:none;}
+ blockquote:before,blockquote:after{content:none;}
+ table{border-collapse:collapse;border-spacing:0;}
+ input:focus,textarea:focus{border:1px solid #999; outline:0;}
+ a:hover, a:active, a:focus { outline: none; -moz-outline-style: none;}
+ ::-webkit-input-placeholder {color:#999;}
+ :-moz-placeholder {color:#999;}
+ .placeholder {color: #999;}
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
+ /* --- Clearfix --- */
+ .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+ .clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0;}
+ 
+ html {
+   font-size: 62.5%;
+   font-family:sans-serif;
+   -moz-osx-font-smoothing: grayscale;
+   background-color: #bbb;
+ }
 
-        <!--[if lt IE 9]>
-            <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
-        <![endif]-->
-    </head>
-    <body>
+ body
+{
+   margin: 0 auto;
+   font-family: 'Helvetica Neue', Helvetica, "PT sans",Arial, sans-serif;
+     color: #555;
+     font-size: 1.7rem;
+ }
+ 
+ #branding {
+     display: block;
+     clear: both;
+margin-top: 30px;}
 
-        <div class="header-container">
-            <header class="wrapper clearfix">
-                <h1 class="title">h1.title</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+ #site-title {
+     font-size: 3em;
+     letter-spacing: -2px;
+     margin: 0px;
+	  font-weight: 200;
+ }
+ #site-description {
+     font-size: 2em;
+     color:#1FA67A;
+	  font-weight: 300;
+	  margin-top: 0;
+ }
+  #page {
+     display: block;
+     margin: 0 auto;
+     position: relative;
+	  width:80%;
+    background-color: #ccc;
+	  padding: 5px;
+ }
+ #main {
+     clear: both;
+     padding-top: 10px;
+ }
+ #content {
+     margin: 15px 0px 0px;
+ }
 
-        <div class="main-container">
-            <div class="main wrapper clearfix">
+ .entry-header {
+     padding: 0;
+     margin: 10px auto;
+     font-size: 24px;
+     color: black;
+ }
+  a { color: #555;transition:all .6s;text-decoration:none;}
+  a:hover { color:#F04850; }
+  a:focus{ color:#1FA67A; transition:all .7s;}
+ 
+ #access {
+ display:block;
+ width:100%;
+ border-bottom:1px solid #ccc;
+ float:left;
+ margin-bottom:25px;
+ z-index:3;
+ position:relative;
+ }
 
-                <article>
-                    <header>
-                        <h1>article header h1</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
-                    </header>
-                    <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                    </section>
-                    <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                    </section>
-                    <footer>
-                        <h3>article footer h3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
-                    </footer>
-                </article>
+ #access ul {
+ list-style:none outside none;
+ z-index:4;
+ margin:0;
+ padding:2px;
+ }
 
-                <aside>
-                    <h3>aside</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
-                </aside>
+ #access ul ul {
+ background-color:#444;
+ box-shadow:0 6px 4px -6px #000;
+ display:none;
+ float:left;
+ position:absolute;
+ top:2em;
+ left:0;
+ border-radius:4px;
+ }
 
-            </div> <!-- #main -->
-        </div> <!-- #main-container -->
+ #access ul ul ul {
+ left:100%;
+ top:0;
+ }
 
-        <div class="footer-container">
-            <footer class="wrapper">
-                <h3>footer</h3>
-            </footer>
-        </div>
+ #access ul ul li a {
+ color:#fff;
+ line-height:1em;
+ height:auto;
+ width:150px;
+ padding:.4em .4em .4em 1em;
+ }
 
-        <script src="js/main.js"></script>
-    </body>
+ #access ul ul li:first-child a {
+ border:0 none;
+ box-shadow:none;
+ }
+
+ #access .current_page_item a {
+ color:#F04850;
+ }
+
+ #access ul ul li a:hover {
+ background:#F04850;
+ color:#fff;
+ border-radius:4px;
+ }
+
+ #access li {
+ display:block;
+ float:left;
+ position:relative;
+ font-weight:300;
+ }
+
+ #access a,#access a:visited {
+ display:block;
+ line-height:2em;
+ padding-right:1.5em;
+ text-decoration:none;
+ font-weight: 400;
+ }
+#access a { color: #555;transition:all .6s;text-decoration:none;}
+#access a:hover { color:#F04850; }
+#access a:focus{ color:#1FA67A; transition:all .7s;}
+
+ #access ul li:hover > ul {
+ display:block;
+ }
+
+ #access ul ul:before {
+ background-color:#444;
+ content:"";
+ height:8px;
+ left:15%;
+ position:absolute;
+ top:0;
+ transform:rotate(45deg);
+ -ms-transform:rotate(45deg);
+ -moz-transform:rotate(45deg);
+ -webkit-transform:rotate(45deg);
+ width:8px;
+ margin:-4px 0 0 -4px;
+ }
+</STYLE>
+</head>
+<body> 
+	<div id="page">
+		
+	<header id="branding" role="banner"><!-- #branding -->
+	<h1 id="site-title"><a href="#" title="Nom du site" rel="home" itemprop="url" class="u-url url">Nom du site</a></h1>
+	<h3 id="site-description" >description du site</h3>
+	<nav id="access">
+      <ul class="menu">
+ 	<li ><a href="#">Accueil</a></li>
+ 	<li><a title="A propos" rel="nofollow" href="http://domain.tld/a-propos/">A propos</a>
+	  <ul class="sub-menu">
+	    <li><a title="Cookies" rel="nofollow" href="http://domain.tld/a-propos/cookies/">Cookies</a></li>
+	  </ul>
+	</li>
+	<li ><a title="Archives" rel="nofollow" href="http://domain.tld/archives/">Archives</a>
+  	  <ul class="sub-menu">
+	    <li><a title="Archives 1" rel="nofollow" href="http://domain.tld/archives/1/">Archives 1</a></li>
+	    <li><a title="Archives 2" rel="nofollow" href="http://domain.tld/archives/2/">Archives 2</a></li>
+	    <li><a title="Archives 3" rel="nofollow" href="http://domain.tld/archives/3/">Archives 3</a></li>
+	    <li><a title="Archives 4" rel="nofollow" href="http://domain.tld/archives/4/">Archives 4</a></li>
+	    <li><a title="Archives 5" rel="nofollow" href="http://domain.tld/archives/5/">Archives 5</a></li>
+	    <li><a title="Archives 6" rel="nofollow" href="http://domain.tld/archives/6/">Archives 6</a></li>
+	    <li><a title="Archives 7" rel="nofollow" href="http://domain.tld/archives/7/">Archives 7</a></li>
+	    <li><a title="Archives 8" rel="nofollow" href="http://domain.tld/archives/8/">Archives 8</a></li>
+ 	  </ul>
+	</li>
+	<li><a title="Conctact" rel="nofollow" href="http://domain.tld/contact/">Contact</a></li>
+	<li><a title="2048" rel="nofollow" href="http://domain.tld/2048/">2048</a></li>
+    </ul>
+  </nav><!-- #access -->
+  </header><!-- #branding -->
+  <div id="main">
+     <main id="content" role="main">
+	 <article class="post">
+	   <header class="entry-header">
+		<h2 class="entry-title p-name">Ze POsTE</h2>
+        </header>
+<p>Loin, très loin, au delà des monts Mots, à mille lieues des pays Voyellie et Consonnia, demeurent les Bolos Bolos. Ils vivent en retrait, à Bourg-en-Lettres, sur les côtes de la Sémantique, un vaste océan de langues. Un petit ruisseau, du nom de Larousse, coule en leur lieu et les approvisionne en règlalades nécessaires en tout genre; un pays paradisiagmatique, dans lequel des pans entiers de phrases prémâchées vous volent litéralement tout cuit dans la bouche. Pas même la toute puissante Ponctuation ne régit les Bolos Bolos - une vie on ne peut moins orthodoxographique. Un jour pourtant, une petite ligne de Bolo Bolo du nom de Lorem Ipsum décida de s'aventurer dans la vaste Grammaire. Le grand Oxymore voulut l'en dissuader, le prevenant que là-bas cela fourmillait de vils Virgulos, de sauvages Pointdexclamators et de sournois Semicolons qui l'attendraient pour sûr au prochain paragraphe, mais ces mots ne firent écho dans l'oreille du petit Bolo qui ne se laissa point déconcerter. Il pacqua ses 12 lettrines, glissa son initiale dans sa panse et se mit en route. Alors qu'il avait gravi les premiers flancs de la chaîne des monts Italiques, il jeta un dernier regard sur la skyline de Bourg-en-Lettres, sa ville alphanatale, la headline d'Alphabetville, la subline de sa propre rue, le passage Motus. Le coeur lourd et nostalgique, une question rhétorique lui coula le long de la joue, puis, il se remit en route. En chemin, il rencontra un Copy. Le Copy prévint le petit Bolo que là d'où il venait, il avait déjà maintes et maintes fois été ressaisi, et que tout ce qui désormais restait de leurs origines était le mot "et", et que le petit Bolo ferait bien de se raviser, rebrousser chemin et retourner en son sain et sauf bercail. Mais toutes bonnes</p>
+         </article><!-- #article -->
+      </main>
+</div><!-- #main-->
+   </div><!-- #page -->
+</body>
 </html>
