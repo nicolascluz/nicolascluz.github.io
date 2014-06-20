@@ -14,7 +14,7 @@
  #branding {
     display: block;
     clear: both;
-    padding-top: 70px;
+    padding-top: 40px;
     margin: 0px 0px 0px 30px;
 }
 #page {
@@ -40,7 +40,7 @@
      clear: both;
  }
  #content {
-     margin: 0px;
+    margin: 0px 0px 0px 30px;
  }
 article {
     display: block;
