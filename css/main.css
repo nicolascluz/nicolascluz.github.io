@@ -3,7 +3,10 @@
    font-family:sans-serif;
    background-color: #bbb;
  }
-
+body #page {
+    width: 670px;
+    margin: 0px auto;
+}
  body
 {
    margin: 0 auto;
