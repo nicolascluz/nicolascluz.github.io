@@ -44,6 +44,7 @@
 	letter-spacing:0.1em;
 }
 
+
 #page {
     display: block;
     margin:0 auto;
@@ -59,6 +60,15 @@
  }
  #content {
 margin: 10px 30px 20px;
+}
+
+#content p {
+	margin: 0 0 30px;
+	font-size:100%;
+	line-height:1.7;
+	-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+   hyphens: auto;
 }
 article {
     display: block;
