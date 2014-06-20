@@ -5,8 +5,10 @@
  }
  body
 {
-     color: #555;
-     font-size: 1.7rem;
+    color: #555;
+    font-size: 1.7rem;
+    margin: 0px auto;
+    height: 100%;
  }
  
  #branding {
@@ -19,7 +21,7 @@
     display: block;
     margin: 0px auto;
     position: relative;
-    width: 950px;
+    width: 66%;
 }
  #site-title {
      font-size: 3em;
