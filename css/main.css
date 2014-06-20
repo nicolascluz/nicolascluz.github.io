@@ -3,6 +3,8 @@
    font-family:sans-serif;
    background-color: #bbb;
    height: 100%;
+     transition:all 1s;
+
  }
  body
 {
@@ -92,7 +94,6 @@
  height:auto;
  width:150px;
  padding:.4em .4em .4em 1em;
-  transition:all 1s;
  }
 
  #access ul ul li:first-child a {
