@@ -78,9 +78,6 @@ p { font-size:1em; line-height:1.4; }
 }
 
 .entry-header {
-     padding: 0;
-     margin: 10px auto;
-     font-size: 24px;
      color: black;
  }
 
@@ -120,7 +117,7 @@ p { font-size:1em; line-height:1.4; }
  #access ul ul li a {
  color:#fff;
  height:auto;
- width:150px;
+ min-width: 80px;
  padding:.4em .4em .4em 1em;
  }
 
@@ -143,7 +140,6 @@ p { font-size:1em; line-height:1.4; }
  display:block;
  float:left;
  position:relative;
- font-weight:300;
  }
 
  #access a,#access a:visited {
@@ -151,7 +147,6 @@ p { font-size:1em; line-height:1.4; }
  line-height:1em;
  padding-right:1.5em;
  text-decoration:none;
- font-weight: 300;
  }
 
  #access ul li:hover > ul {
