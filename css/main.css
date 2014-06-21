@@ -49,12 +49,15 @@
     position: relative;
     width: 66%;
     padding-bottom: 20px;
+    min-height: inherit;
 }
 
 
  #main {
      clear: both;
      padding-top: 30px;
+         padding-bottom: 20px;
+
  }
  #content {
 margin: 10px 30px 20px;
