@@ -72,9 +72,9 @@ p { font-size:1em; line-height:1.4; }
   margin: 10px 30px 20px;
 }
 
-#article {
+article.post {
  display: block;
- margin-lift: 10px;
+ margin-botton: 20px;
 }
 
 .entry-header .entry-title {font-size:37px;}
