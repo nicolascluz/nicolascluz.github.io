@@ -31,7 +31,7 @@
 a { color: #555;text-decoration:none;}
 a:hover { color:#F04850; }
 a:focus{ color:#1FA67A;}
-p { font-size:1em; line-height:1.4; }
+p { font-size:1em; line-height:1.7; font-family: monospace; }
 
 #branding {
 	padding: 20px 30px 0px;
