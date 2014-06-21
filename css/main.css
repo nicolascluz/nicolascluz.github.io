@@ -71,9 +71,10 @@ p { font-size:1em; line-height:1.7; font-family: monospace; }
   margin: 10px 30px 20px;
 }
 
-#content article.post {
- display: block;
- margin-bottom: 30px;
+ #content article.post {
+display: block;
+border-bottom: 1px dotted;
+padding-bottom: 2em;
 }
 #content .entry-header {margin: 20px;}
 
