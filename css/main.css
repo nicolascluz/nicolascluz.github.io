@@ -25,9 +25,10 @@
 {
     max-width:100%;
     margin:0 auto;
-   	font-family: Georgia, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', serif;
     color: #555;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+    font-size: 17px;
  }
  
 
@@ -38,9 +39,16 @@
 #site-title,#site-description {
 	padding:5px 0 20px;
 	margin:0;
-	letter-spacing:0.1em;
 }
 
+#site-title{
+        font-size:3em;
+	letter-spacing:0.1em;
+}
+#site-description {
+        font-size:2em;
+	letter-spacing:0.1em;
+}
 
 #page {
     display: block;
@@ -56,20 +64,17 @@
  #main {
      clear: both;
      padding-top: 30px;
-         padding-bottom: 20px;
+     padding-bottom: 20px;
 
  }
  #content {
-margin: 10px 30px 20px;
+  margin: 10px 30px 20px;
 }
 
-#content p {
-	margin: 0 0 30px;
-	font-size:100%;
-	line-height:1.7;
-	-webkit-hyphens: auto;
-   -moz-hyphens: auto;
-   hyphens: auto;
+p {
+
+	font-size:1em;
+	line-height:1.4;
 }
 article {
     display: block;
