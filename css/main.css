@@ -146,6 +146,7 @@ p { font-size:1em; line-height:1.4; }
  line-height:1em;
  padding-right:1.5em;
  text-decoration:none;
+  font-family: monospace;
  }
 
  #access ul li:hover > ul {
