@@ -36,9 +36,8 @@
 	display:block;
 }
 #site-title,#site-description {
-	padding:0 0 20px;
+	padding:5px 0 20px;
 	margin:0;
-	padding:0;
 	letter-spacing:0.1em;
 }
 
@@ -49,6 +48,7 @@
     background:#fff;
     position: relative;
     width: 66%;
+    padding-bottom: 20px;
 }
 
 
