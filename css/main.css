@@ -72,12 +72,13 @@ p { font-size:1em; line-height:1.4; }
   margin: 10px 30px 20px;
 }
 
-article.post {
+#content article.post {
  display: block;
- margin-botton: 20px;
+ margin-bottom: 30px;
 }
+#content .entry-header {margin: 20px;}
 
-.entry-header .entry-title {font-size:37px;}
+#content .entry-header .entry-title {font-size:37px;}
 
  #access {
  display:block;
