@@ -116,7 +116,7 @@ p { font-size:1em; line-height:1.4; }
  #access ul ul li a {
  color:#fff;
  height:auto;
- min-width: 80px;
+ min-width: 100px;
  padding:.4em .4em .4em 1em;
  }
 
