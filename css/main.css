@@ -168,6 +168,10 @@ article {
  position:absolute;
  top:0;
  transform:rotate(45deg);
+ transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
  width:8px;
  margin:-4px 0 0 -4px;
  }
