@@ -37,21 +37,18 @@ p {margin: .75em 0;}
 #site-title {
     font-size: 3em;
     line-height: 1.2173913043;
-    letter-spacing: -2px;
 }
 #site-description {
 	font-style: italic;
-	font-family: serif;
 	font-size: 1.125em;
 	margin: 0 0 1em;
 }
 
 #page {
     display: block;
-    margin:0 auto;
-    position: relative;
-    max-width: 60em;
-    width: 90%;
+    margin: 0 auto;
+    max-width: 44em;
+    padding: 0 1em;
 }
 
 
@@ -60,7 +57,8 @@ p {margin: .75em 0;}
  }
  
  #content {
- 	width:99%;
+ 	width:100%;
+ 	display: block;
 }
 
  #content article.post {
