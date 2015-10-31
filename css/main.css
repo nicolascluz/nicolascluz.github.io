@@ -8,7 +8,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 @media screen and (min-width: 68.7500em){body{font-size: 1.0625em;}}
 @media screen and (min-width: 77.5000em){body{font-size: 1.1250em;}}
-/*@media screen and (min-width: 87.6875em){body{font-size: 1.1875em;}}*/
+@media screen and (min-width: 87.6875em){body{font-size: 1.1875em;}}
+
 /* Titraille / Intertitres */
 h1,h2,h3,h4,h5 {
 	clear: both;
@@ -59,7 +60,7 @@ p {margin: .75em 0;}
  }
  
  #content {
-  margin: 0;
+ 	width:99%;
 }
 
  #content article.post {
