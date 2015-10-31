@@ -67,7 +67,7 @@ border-bottom: 1px dotted;
 padding-bottom: 2em;
 margin-bottom: 2em;
 }
-#content .entry-header {margin: 20px;}
+#content .entry-header {margin: 0 0 2em;}
 
 #content .entry-header .entry-title {font-size:2.125em;}
 
