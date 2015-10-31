@@ -18,17 +18,12 @@ p { font-size:1em; line-height:1.7; font-family: monospace; }
 #branding {
 	display:block;
 }
-#site-title,#site-description {
-	margin:0;
-}
 
 #site-title{
         font-size:3em;
-	letter-spacing:0.1em;
 }
 #site-description {
         font-size:2em;
-	letter-spacing:0.1em;
 }
 
 #page {
@@ -37,14 +32,14 @@ p { font-size:1em; line-height:1.7; font-family: monospace; }
     background:#fff;
     position: relative;
     max-width: 60em;
-    padding: 0 2em;
-    min-height: inherit;
+    padding: 0 1em;
 }
 
 
  #main {
    clear: both;
  }
+ 
  #content {
   margin: 0;
 }
@@ -53,6 +48,7 @@ p { font-size:1em; line-height:1.7; font-family: monospace; }
 display: block;
 border-bottom: 1px dotted;
 padding-bottom: 2em;
+margin-bottom: 2em;
 }
 #content .entry-header {margin: 20px;}
 
