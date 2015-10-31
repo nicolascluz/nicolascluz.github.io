@@ -2,7 +2,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
  body
 {
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: sans-serif;
 	line-height: 1.6875;
 }
 
@@ -21,10 +21,12 @@ h2 { font-size: 1.6875em; }
 h3 { font-size: 1.3750em; }
 h4 { font-size: 1.1250em; }
 h5 { font-size: 1.0625em; }
+
 a { color: #555;text-decoration:none;}
 a:hover { color:#F04850; }
 a:focus{ color:#1FA67A;}
-p {font-family: monospace; margin: .75em 0;}
+
+p {margin: .75em 0;}
 
 #branding {
    display: block;
@@ -46,10 +48,9 @@ p {font-family: monospace; margin: .75em 0;}
 #page {
     display: block;
     margin:0 auto;
-    background:#fff;
     position: relative;
     max-width: 60em;
-    padding: 0 1em;
+    width: 90%;
 }
 
 
