@@ -33,14 +33,23 @@ a:focus{ color:#1FA67A;}
 p { font-size:1em; line-height:1.7; font-family: monospace; }
 
 #branding {
-	display:block;
+   display: block;
+    clear: both;
+    margin: .875em auto;
 }
 
-#site-title{
-        font-size:3em;
+#site-title {
+    font-size: 3.25em;
+    line-height: 1.2173913043;
+    letter-spacing: -2px;
 }
 #site-description {
-        font-size:2em;
+	font-style: italic;
+	font-family: serif;
+	font-size: 1.125em;
+	margin: 0 0 1em;
+	height: auto;
+	width: 100%;
 }
 
 #page {
