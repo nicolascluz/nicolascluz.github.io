@@ -3,7 +3,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
  body
 {
 	font-family: sans-serif;
-	line-height: 1.6875;
 }
 
 @media screen and (min-width: 68.7500em){body{font-size: 1.0625em;}}
@@ -16,12 +15,6 @@ h1,h2,h3,h4,h5 {
 	font-weight: normal;
 	line-height: 1.375;
 }
-
-h1 { font-size: 2.1250em; }
-h2 { font-size: 1.6875em; }
-h3 { font-size: 1.3750em; }
-h4 { font-size: 1.1250em; }
-h5 { font-size: 1.0625em; }
 
 a { color: #555;text-decoration:none;}
 a:hover { color:#F04850; }
